@@ -2,8 +2,8 @@ Library Management System
 Overview
 This Library Management System is a comprehensive C++ application designed to manage library resources, users, loans, and reservations. The system provides functionalities for librarians to efficiently track library operations and for users to access library services.
 
-Features
-Resource Management
+Features:
+------Resource Management----------
 Add, edit, and remove various types of resources (Books, Articles, Theses, Digital Content)
 
 Search resources by keyword or category
@@ -36,27 +36,18 @@ View recent system notifications
 
 Automatic overdue item detection
 
-Getting Started
-Prerequisites
-C++ compiler (supporting C++11 or later)
 
-Standard Library headers
+Main Menu:
+The system presents a main menu with options for different modules
 
-Compilation
-bash
-g++ -std=c++11 LibraryManagementSystem.cpp -o library
-Running the Program
-bash
-./library
-Usage
-Main Menu: The system presents a main menu with options for different modules
+Navigation:
+Use the numbered options to navigate through the system
 
-Navigation: Use the numbered options to navigate through the system
-
-Data Entry: Follow on-screen prompts to enter required information
+Data Entry:
+Follow on-screen prompts to enter required information
 
 System Architecture
-Key Classes
+--------Key Classes--------
 Resource: Base class for all library resources
 
 Book
@@ -80,8 +71,6 @@ LibraryManagementSystem: Main system controller
 Data Management
 All data is stored in memory during runtime
 
-(Note: The current implementation includes placeholder methods for data persistence that need to be implemented)
-
 Testing
 The system includes a comprehensive main function that allows testing all features through an interactive menu. See the test cases in the main function documentation for verification procedures.
 
@@ -97,6 +86,12 @@ Add reporting features
 Implement fine calculation for overdue items
 
 Add bulk import/export capabilities
+
+Authors:
+DAHAOUI YASMINE
+
+Built With:
+C++ programing language 
 
 License
 This project is open-source and available for educational purposes.
